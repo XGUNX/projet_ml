@@ -1,0 +1,16 @@
+1) Option Santé — Prédire le diabète (classification binaire)
+Problématique:
+
+Prédire si un patient est diabétique (1) ou non (0) à partir de mesures cliniques simples (âge, IMC, glycémie, pression artérielle, etc.)
+***************************************
+
+Option Immobilier — Prédiction du prix d’une maison (régression)
+Problématique
+
+Prédire le prix de vente d’une maison à partir de caractéristiques (surface, nombre de chambres, année, localisation, etc.).
+*****************************************************
+
+Option Commerce — Prédiction du churn client (classification binaire)
+Problématique:
+
+Prédire si un client va résilier un service (1) ou rester (0) sur la prochaine période en se basant sur historique d’utilisation, facturation, support, etc.

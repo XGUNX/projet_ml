@@ -1,0 +1,73 @@
+════════════════════════════════════════════════════════════════════════════════
+                              🏠 ESTIMATION IMMOBILIER AI 🏠
+════════════════════════════════════════════════════════════════════════════════
+
+⭐ PRIX ESTIMÉ : $174,000
+
+Détail : $174,081.33
+Prix au pied carré : $96.71/pi²
+
+CARACTÉRISTIQUES PRINCIPALES :
+────────────────────────────────────────
+Surface habitable         : 1,800 pi²
+Surface totale            : 2,800 pi²
+Terrain                   : 9,600 pi²
+Chambres                  : 3
+Salles de bain            : 2 complètes
+Garage                    : 2 places
+Construction              : 2005
+Qualité générale          : 7/10
+
+TOUTES LES CARACTÉRISTIQUES DÉTAILLÉES :
+────────────────────────────────────────
+Order                                    : 3000
+Ms Subclass                              : 60
+Lot Frontage                             : 80
+Lot Area                                 : 9,600 pi²
+Street                                   : 1
+Lot Shape                                : 2
+Land Slope                               : 1
+Overall Qual                             : 7
+Overall Cond                             : 5
+Year Built                               : 2005
+Year Remod/Add                           : 2005
+Mas Vnr Area                             : 200
+Exter Qual                               : 3
+Exter Cond                               : 3
+Bsmt Qual                                : 3
+Bsmt Cond                                : 3
+Bsmt Exposure                            : 2
+Bsmtfin Type 1                           : 2
+Bsmtfin Sf 1                             : 800 pi²
+Bsmtfin Type 2                           : 2
+Bsmt Unf Sf                              : 200 pi²
+Total Bsmt Sf                            : 1,000 pi²
+Heating Qc                               : 3
+Central Air                              : 1
+1St Flr Sf                               : 1,200 pi²
+2Nd Flr Sf                               : 600 pi²
+Gr Liv Area                              : 1,800 pi²
+Bsmt Full Bath                           : 1
+Full Bath                                : 2
+Half Bath                                : 1
+Bedroom Abvgr                            : 3
+Kitchen Abvgr                            : 1
+Kitchen Qual                             : 3
+Totrms Abvgrd                            : 7
+Functional                               : 1
+Fireplaces                               : 1
+Fireplace Qu                             : 3
+Garage Yr Blt                            : 2005
+Garage Finish                            : 2
+Garage Cars                              : 2
+Garage Area                              : 500 pi²
+Garage Qual                              : 3
+Garage Cond                              : 3
+Paved Drive                              : 2
+Wood Deck Sf                             : 200 pi²
+Open Porch Sf                            : 50 pi²
+Mo Sold                                  : 6
+Yr Sold                                  : 2023
+Totalsf                                  : 2,800 pi²
+Ms Zoning Rl                             : 1
+Neighborhood Names                       : 1

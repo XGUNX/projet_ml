@@ -34,13 +34,13 @@ st.sidebar.header("🛠️ Caractéristiques du bien")
 def user_input_features():
     # On définit des valeurs par défaut moyennes
     
-    # 1. Surface Habitable
-    gr_liv_area = st.sidebar.slider("Surface Habitable (pieds²)", 500, 5000, 1500)
+    # 1. Surface Habitable (Maintenant en saisie numérique)
+    gr_liv_area = st.sidebar.number_input("Surface Habitable (pieds²)", value=1500, min_value=0)
     
-    # 2. Année de construction
+    # 2. Année de construction (Le slider reste bien pour les années, mais tu peux changer aussi si tu veux)
     year_built = st.sidebar.slider("Année de Construction", 1900, 2024, 2005)
     
-    # 3. Qualité Globale (Le facteur le plus important !)
+    # 3. Qualité Globale
     overall_qual = st.sidebar.select_slider("Qualité Générale (1=Ruine, 10=Luxe)", options=[1,2,3,4,5,6,7,8,9,10], value=6)
     
     # 4. Garage
@@ -64,9 +64,9 @@ def user_input_features():
         'GarageArea': garage_area,
         'TotalBsmtSF': total_bsmt_sf,
         'FullBath': full_bath,
-        # On calcule la variable "TotalSF" qu'on avait créée en Feature Engineering
         'TotalSF': gr_liv_area + total_bsmt_sf
     }
+
 
 input_dict = user_input_features()
 

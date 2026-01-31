@@ -11,7 +11,7 @@ import joblib #chargement du modèle ML et des fichier
 st.set_page_config(page_title="Estimation Immo IA", page_icon="🏠", layout="centered")
 
 #CHARGEMENT DES FICHIERS SAUVEGARDÉS
-@st.cache_resource # Cette ligne permet de garder le modèle en mémoire pour aller plus vite
+@st.cache_resource #permet de garder le modèle en mémoire pour aller plus vite
 def load_data():
     model = joblib.load('mon_modele_immo.pkl')
     cols = joblib.load('colonnes_modele.pkl')
@@ -42,7 +42,7 @@ def user_input_features():
     gr_liv_area = st.sidebar.number_input("Surface Habitable (pieds²)", value=1500, min_value=0)
     
     #Année de construction
-    year_built = st.sidebar.slider("Année de Construction", 1900, 2024, 2005)
+    year_built = st.sidebar.slider("Année de Construction", 1900, 2026, 2005)
     
     # Qualité Globale
     overall_qual = st.sidebar.select_slider("Qualité Générale (1=Ruine, 10=Luxe)", options=[1,2,3,4,5,6,7,8,9,10], value=6)
